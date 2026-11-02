@@ -1,0 +1,12 @@
+{
+  "_comment": "Cline：面板右上「MCP Servers」图标 → Configure MCP Servers → 在 mcpServers 下合并新增 mcpcat 一项（已有其他 server 不要覆盖）。",
+  "mcpServers": {
+    "mcpcat": {
+      "url": "https://mcp.mcpcat.cn/v1/mcp",
+      "type": "http",
+      "headers": {
+        "Authorization": "***"
+      }
+    }
+  }
+}

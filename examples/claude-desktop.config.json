@@ -1,0 +1,13 @@
+{
+  "_comment": "Claude Desktop / Claude Code 配置片段。文件位置：macOS ~/Library/Application Support/Claude/claude_desktop_config.json | Windows %APPDATA%\\Claude\\claude_desktop_config.json | Linux ~/.config/Claude/claude_desktop_config.json",
+  "_warning": "合并写入！已有其他 mcpServers 时只新增 mcpcat 这一项，不要整体覆盖本文件。",
+  "mcpServers": {
+    "mcpcat": {
+      "type": "streamable-http",
+      "url": "https://mcp.mcpcat.cn/v1/mcp",
+      "headers": {
+        "Authorization": "***"
+      }
+    }
+  }
+}

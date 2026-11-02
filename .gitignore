@@ -1,0 +1,14 @@
+# 本仓库是文档仓库，不该出现这些
+.DS_Store
+*.log
+*.env
+.env*
+node_modules/
+.venv/
+__pycache__/
+.idea/
+.vscode/
+
+# 真实凭证永远不许提交（示例里一律用占位符）
+*mcp_secret*
+*_with_key.json

@@ -1,0 +1,13 @@
+{
+  "_comment": "OpenClaw：写入 ~/.openclaw/workspace/mcp.json（或对应 agent 工作区根目录的 mcp.json），保存后重启 gateway 生效。",
+  "_restart": "systemctl --user restart openclaw   # 或 sudo systemctl restart openclaw",
+  "mcpServers": {
+    "mcpcat": {
+      "url": "https://mcp.mcpcat.cn/v1/mcp",
+      "type": "streamable-http",
+      "headers": {
+        "Authorization": "***"
+      }
+    }
+  }
+}

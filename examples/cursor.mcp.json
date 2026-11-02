@@ -1,0 +1,12 @@
+{
+  "_comment": "放到项目根 .cursor/mcp.json（项目级）或 ~/.cursor/mcp.json（全局）。也可在 Settings → Features → MCP → Add New MCP Server 里填：Type=http, URL 同下, Header 同下。",
+  "mcpServers": {
+    "mcpcat": {
+      "type": "http",
+      "url": "https://mcp.mcpcat.cn/v1/mcp",
+      "headers": {
+        "Authorization": "***"
+      }
+    }
+  }
+}
