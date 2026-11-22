@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcpcat": {
+      "type": "streamableHttp",
+      "url": "https://mcp.mcpcat.cn/v1/mcp",
+      "headers": {
+        "Authorization": "***}"
+      },
+      "timeout": 30000
+    }
+  }
+}

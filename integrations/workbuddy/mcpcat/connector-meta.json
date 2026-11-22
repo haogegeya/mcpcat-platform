@@ -1,0 +1,23 @@
+{
+  "name": "MCPCat数据查询",
+  "name_zh": "MCPCat数据查询",
+  "name_en": "MCPCat Data Query",
+  "description": "Real-time weather, express tracking, DNS and website checks via one MCP endpoint.",
+  "description_zh": "一个端点直连实时天气、快递物流查询与网站可用性检测等数据服务，注册获取 API Key 即可连接使用。",
+  "description_en": "Connect to real-time weather, express tracking, DNS lookup and website availability checks through a single MCP endpoint with your API key.",
+  "source": "mcpcat",
+  "type": "mcp",
+  "auth_mode": "token",
+  "version": "1.0.0",
+  "examples_zh": [
+    "帮我查一下北京明天天气怎么样",
+    "查一下顺丰单号 SF1234567890 到哪了",
+    "帮我检测 example.com 的网站状态和 DNS 解析"
+  ],
+  "examples_en": [
+    "What's the weather in Beijing tomorrow?",
+    "Track my SF Express shipment SF1234567890",
+    "Check the HTTP status and DNS of example.com"
+  ],
+  "minWorkbuddyVersion": "4.23.0"
+}

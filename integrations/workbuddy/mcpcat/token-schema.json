@@ -1,0 +1,19 @@
+{
+  "title": "连接 MCPCat 数据服务",
+  "title_en": "Connect to MCPCat Data Service",
+  "description": "填写您的 MCPCat API Key。Key 在 mcpcat.cn 官网注册后于控制台生成，仅保存在本机用于请求签名。",
+  "description_en": "Enter your MCPCat API Key. Create one for free at mcpcat.cn console. The key is stored locally on this device only.",
+  "docUrl": "https://haogegeya.github.io/mcpcat-docs/",
+  "docLabel": "如何获取 API Key？",
+  "fields": [
+    {
+      "key": "MCPCAT_API_KEY",
+      "label": "MCPCat API Key",
+      "label_en": "MCPCat API Key",
+      "type": "password",
+      "required": true,
+      "placeholder": "在 mcpcat.cn 控制台「API Key」页生成",
+      "description": "将写入 Authorization: Bearer 请求头。"
+    }
+  ]
+}
