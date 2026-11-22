@@ -2,22 +2,22 @@
   "name": "MCPCat",
   "name_zh": "MCPCat",
   "name_en": "MCPCat",
-  "description": "Real-time weather, express tracking, DNS and website checks via one MCP endpoint.",
-  "description_zh": "一个端点直连实时天气、快递物流查询与网站可用性检测等数据服务，注册获取 API Key 即可连接使用。",
-  "description_en": "Connect to real-time weather, express tracking, DNS lookup and website availability checks through a single MCP endpoint with your API key.",
+  "description": "Order McDonald's and Luckin coffee in one sentence, plus real-time weather, express tracking, DNS and price data via one MCP endpoint.",
+  "description_zh": "一句话点麦当劳、瑞幸咖啡，并提供实时天气、快递物流轨迹、汇率油价、DNS检测等数据查询服务。点餐下单前会先预览并与您确认。",
+  "description_en": "Order McDonald's or Luckin coffee with one sentence, and query real-time weather, express tracking, exchange rates, oil prices and DNS status through a single MCP endpoint. Orders are previewed and confirmed before checkout.",
   "source": "mcpcat",
   "type": "mcp",
   "auth_mode": "token",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "examples_zh": [
-    "帮我查一下北京明天天气怎么样",
-    "查一下顺丰单号 SF1234567890 到哪了",
-    "帮我检测 example.com 的网站状态和 DNS 解析"
+    "帮我在最近的麦当劳门店点一份早餐，到店取",
+    "用瑞幸帮我点一杯生椰拿铁，预览一下别支付",
+    "查一下北京明天天气和顺丰单号SF1234567890的轨迹"
   ],
   "examples_en": [
-    "What's the weather in Beijing tomorrow?",
-    "Track my SF Express shipment SF1234567890",
-    "Check the HTTP status and DNS of example.com"
+    "Order breakfast at the nearest McDonald's for pickup",
+    "Preview a Luckin iced coconut latte without paying",
+    "Check tomorrow's weather in Beijing and my SF Express tracking"
   ],
   "minWorkbuddyVersion": "4.23.0"
 }
