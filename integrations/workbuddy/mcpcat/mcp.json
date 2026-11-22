@@ -4,7 +4,7 @@
       "type": "streamableHttp",
       "url": "https://mcp.mcpcat.cn/v1/mcp",
       "headers": {
-        "Authorization": "***}"
+        "Authorization": "Bearer ${MCPCAT_API_KEY}"
       },
       "timeout": 30000
     }
